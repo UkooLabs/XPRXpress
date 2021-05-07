@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "XPRExpress", "XPRExpress\XPRExpress\XPRExpress.vbproj", "{6F96C367-E31A-45B9-B616-EACF2198216D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XPRTool", "XPRExpress\XPRTool\XPRTool.vcxproj", "{D9438DBD-2ADE-4460-B01E-BDA9A5878DB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F96C367-E31A-45B9-B616-EACF2198216D}.Debug|x86.ActiveCfg = Debug|x86
+		{6F96C367-E31A-45B9-B616-EACF2198216D}.Debug|x86.Build.0 = Debug|x86
+		{6F96C367-E31A-45B9-B616-EACF2198216D}.Release|x86.ActiveCfg = Release|x86
+		{6F96C367-E31A-45B9-B616-EACF2198216D}.Release|x86.Build.0 = Release|x86
+		{D9438DBD-2ADE-4460-B01E-BDA9A5878DB3}.Debug|x86.ActiveCfg = Debug|Win32
+		{D9438DBD-2ADE-4460-B01E-BDA9A5878DB3}.Debug|x86.Build.0 = Debug|Win32
+		{D9438DBD-2ADE-4460-B01E-BDA9A5878DB3}.Release|x86.ActiveCfg = Release|Win32
+		{D9438DBD-2ADE-4460-B01E-BDA9A5878DB3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D867E63-C994-4BA1-9EDD-7DEA0F82B144}
+	EndGlobalSection
+EndGlobal

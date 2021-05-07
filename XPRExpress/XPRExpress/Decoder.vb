@@ -131,31 +131,31 @@ Public Class Decoder
         If objFileStream IsNot Nothing Then objFileStream.Close()
     End Sub
 
-    <DllImport("XPRTool.dll")> _
+    <DllImport("XPRTool.dll")>
     Private Shared Sub Unswizzle(ByVal Source As Byte(), ByVal Depth As Integer, ByVal Width As Integer, ByVal Height As Integer, ByVal Dest As Byte())
     End Sub
 
-    <DllImport("XPRTool.dll")> _
+    <DllImport("XPRTool.dll")>
     Private Shared Sub ConvertA1R5G5B5(ByVal Source As Byte(), ByVal Width As Integer, ByVal Height As Integer, ByVal Dest As Byte())
     End Sub
 
-    <DllImport("XPRTool.dll")> _
+    <DllImport("XPRTool.dll")>
     Private Shared Sub ConvertDXT1(ByVal Source As Byte(), ByVal Width As Integer, ByVal Height As Integer, ByVal Dest As Byte())
     End Sub
 
-    <DllImport("XPRTool.dll")> _
+    <DllImport("XPRTool.dll")>
     Private Shared Sub ConvertDXT3(ByVal Source As Byte(), ByVal Width As Integer, ByVal Height As Integer, ByVal Dest As Byte())
     End Sub
 
-    <DllImport("XPRTool.dll")> _
+    <DllImport("XPRTool.dll")>
     Private Shared Sub ConvertDXT5(ByVal Source As Byte(), ByVal Width As Integer, ByVal Height As Integer, ByVal Dest As Byte())
     End Sub
 
-    <DllImport("XPRTool.dll")> _
+    <DllImport("XPRTool.dll")>
     Private Shared Sub MapPalette(ByVal Pal As Byte(), ByVal Source As Byte(), ByVal Width As Integer, ByVal Height As Integer, ByVal Dest As Byte())
     End Sub
 
-    <DllImport("lzo.dll")> _
+    <DllImport("lzo.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Function lzo1x_decompress_safe(ByVal Source As Byte(), ByVal SourceLength As Integer, ByVal Dest As Byte(), ByRef DestLength As Integer, ByVal WorkMem As Byte()) As Integer
     End Function
 
